@@ -1,0 +1,24 @@
+{
+  "name": "my-first-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+   "start": "sass ./sass/index.scss ./css/style.css--watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khadijabhuiyan/my-first-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khadijabhuiyan/my-first-repo/issues"
+  },
+  "homepage": "https://github.com/khadijabhuiyan/my-first-repo#readme",
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}
