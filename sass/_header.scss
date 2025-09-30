@@ -1,0 +1,39 @@
+#header{
+    background: $forgroundColor;
+    color: $backgroundColor;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        .logo-wrapper {
+            img{
+                height: 100%;
+            }
+        }
+        .menu-wrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            .nav-wrapper {
+                ul{
+                list-style-type: none;
+                display: flex;
+                gap: 30px;
+                li{
+                    a{
+                        color: $backgroundColor;
+                        text-decoration: none;
+                    }
+                }
+                }
+            } 
+            .icon-wrapper {
+                svg{
+                fill: $backgroundColor;
+                width: 24px;
+                }  
+            }
+        }
+    }
+}
